@@ -2,4 +2,30 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after{
+  display: block;
+  content: block;
+  clear: both;
+}
+
+.parent{
+  background-color: #eff3f4;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 940px;
+}
+
+.balloon{
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.light{
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
 /* 回答はここに書いてね */

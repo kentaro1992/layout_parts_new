@@ -2,4 +2,35 @@
 
 /* 回答はここに書いてね */
 
+
+table{
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+th, td{
+  border: solid 1px #dedede;
+  padding: 15px;
+ }
+
+th{
+  background-color: #24a;
+  color: white;
+}
+
+td:nth-child(1){
+  background-color: #24a;
+  color: white;
+}
+
+tr:nth-child(odd){
+  background-color: #ecf1f2;
+}
+
+tr:last-child td{
+  border-top:dashed #000 2px;
+}
+
 /* 回答はここに書いてね */

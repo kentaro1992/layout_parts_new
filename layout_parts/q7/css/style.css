@@ -1,5 +1,102 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
 
+q7{
+  font-size: 15px;
+}
+.block{
+  overflow: hidden;
+  padding: 3px;
+  width: 500px;
+}
+
+.block1{
+  box-sizing: border-box;
+  float: left;
+  margin-right: 50px;
+  width: 225px;
+}
+
+.block2{
+  box-sizing: border-box;
+  float: right;
+  width: 225px;
+}
+
+.tbox{
+  display: table;
+}
+
+.tblock1{
+  display: table-cell;
+  vertical-align: middle;
+  width: 225px;
+}
+
+.tblock2{
+  display: table-cell;
+  padding-left: 50px;
+  vertical-align: middle;
+  width: 225px;
+}
+
+.parent{
+  display: table;
+}
+
+.child1{
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  width: 225px;
+}
+
+.child2{
+  box-sizing: border-box;
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: middle;
+  width: 225px;
+}
+
+.container{
+  display: flex;
+  align-items: flex-end;
+}
+
+.item1{
+  margin: 0 20px;
+  width: 40%;
+}
+
+.item2{
+  margin: 0 20px;
+  width: 40%;
+}
+
+.example{
+  display: table;
+  height: auto;
+  width: auto;
+  padding: 5px;
+}
+
+.example1{
+  display: inline-block;
+  width: 300px
+
+}
+
+.example2{
+  display: inline-block;
+  float: right;
+  width: 60%;
+  margin-left: 50px;
+}
 /* 回答はここに書いてね */

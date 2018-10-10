@@ -7,27 +7,31 @@
   clear: both;
 }
 
-.parent{
-  background-color: #eff3f4;
+.q1{
+  width: 900px;
   margin: 0 auto;
-  padding: 20px 20px 20px 40px;
-  width: 940px;
+  padding: 20px;
+  background-color: #eff3f4;
+}
+
+.parent{
+  float: left;
+  margin-left: 20px;
+  padding: 20px;
+  width: 230px;
+  background-color: #3274ae;
+}
+
+.parent:first-child{
+  margin-left: 0;
 }
 
 .child{
   background-color: #eaf4ff;
-  border: solid 10px #022336;
-  box-sizing: border-box;
-  float: left;
-  font-size: 16px;
-  line-height: 16px;
-  margin: 20px 20px 20px 40px;
-  outline: solid 20px #3274ae;
   padding: 20px;
-  width: 230px;
+  border: 10px solid #022336;
 }
 
-.parent .child:first-child {
-  margin-left: 0;
-}
+
+
 /* 回答はここに書いてね */

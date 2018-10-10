@@ -2,34 +2,35 @@
 
 /* 回答はここに書いてね */
 
-
-table{
-  border-collapse: collapse;
-  table-layout: fixed;
-  text-align: center;
+.content{
   width: 100%;
+  table-layout: fixed;
+  border: solid #dedede 1px;
 }
 
-th, td{
-  border: solid 1px #dedede;
-  padding: 15px;
- }
-
-th{
+.content th{
+  border-collapse: collapse;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
   background-color: #24a;
-  color: white;
 }
 
-td:nth-child(1){
-  background-color: #24a;
-  color: white;
+.content td{
+  text-align: center;
 }
 
-tr:nth-child(odd){
+.content th,.content td{
+  padding: 10px;
+  border: solid #dedede 1px;
+  vertical-align: middle;
+}
+
+.content > tbody > tr:nth-child(even){
   background-color: #ecf1f2;
 }
 
-tr:last-child td{
+.content > tbody > tr:last-child{
   border-top:dashed #000 2px;
 }
 

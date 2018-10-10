@@ -2,72 +2,82 @@
 
 /* 回答はここに書いてね */
 
-.min-box1{
-  background-color: #e6f2ff;
-  width: 90px;
-  margin: auto;
-  padding: 10px;
+.left-parent{
   text-align: center;
 }
 
-.min-box2{
-  background-color: #e6f2ff;
-  display: block;
-  padding: 10px;
-  margin: auto;
-  width: 90px;
-  text-align: center;
-}
-
-
-.block1{
-  width: 100%;
-  text-align: center;
-}
-
-.min-block1{
+.left-child{
   display: inline-block;
-  background-color: #fff;
-  padding: 10px;
-  margin: 25%;
+  background-color: #e6f2ff;
+  padding: 10px 0;
+  width: 90px;
 }
 
-.block2{
+.right-parent{
+  text-align: center;
+}
+
+.right-child{
+  background-color: #e6f2ff;
+  padding: 10px 0;
+  width: 90px;
+  margin: 0 auto;
+}
+
+.t-block{
+  display: table;
+}
+
+.t-cell{
+  display: table-cell;
+  background-color: #ecf1f2;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.t-text{
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.f-block{
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
-.min-block2{
-  background-color: #fff;
+.f-cell{
   padding: 10px;
+  background-color: #fff;
 }
 
-.block3{
-  position: relative;
-}
-
-.min-block3{
+.stable-inner{
   position: absolute;
-  height: 30px;
-  width: 110px;
   top: 0;
   right: 0;
-  left: 0;
   bottom: 0;
+  left: 0;
   margin: auto;
+
 }
 
-.block4{
+.p-stable{
   position: relative;
-  height: 200px;
-  width: 300px;
 }
 
-.min-block4{
+
+
+
+.p-position .p-box{
+  position: relative;
+}
+
+.p-box .p-inner{
   position: absolute;
-  padding: 10px;
-  top: 40%;
-  transform: translate( 100px);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
 }
 /* 回答はここに書いてね */

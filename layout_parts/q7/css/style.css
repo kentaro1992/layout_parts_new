@@ -7,96 +7,110 @@
   clear: both;
 }
 
-q7{
-  font-size: 15px;
-}
-.block{
-  overflow: hidden;
-  padding: 3px;
-  width: 500px;
+.float-block .f-cell{
+  width: 225px;
 }
 
-.block1{
+.float-block .f-cell{
   box-sizing: border-box;
   float: left;
-  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.float-block .f-cell:first-child {
+  margin-left: 0;
+}
+
+
+
+.t-table .t-block{
   width: 225px;
 }
 
-.block2{
-  box-sizing: border-box;
-  float: right;
-  width: 225px;
-}
-
-.tbox{
+.t-table .t-inner{
   display: table;
 }
 
-.tblock1{
-  display: table-cell;
-  vertical-align: middle;
-  width: 225px;
-}
-
-.tblock2{
+.t-table .t-box{
   display: table-cell;
   padding-left: 50px;
   vertical-align: middle;
+}
+
+.t-table .t-box:first-child{
+  padding-left: 0;
+}
+
+.t-table .t-text{
+  font-size: 16px;
+}
+
+
+
+.i-block .i-box{
   width: 225px;
 }
 
-.parent{
+.i-block .i-inner{
+  font-size: 0;
+}
+
+.i-inner{
   display: table;
 }
 
-.child1{
+.i-block .i-box{
   box-sizing: border-box;
   display: inline-block;
   vertical-align: middle;
-  width: 225px;
-}
-
-.child2{
-  box-sizing: border-box;
-  display: inline-block;
+  font-size: 16px;
   margin-left: 50px;
-  vertical-align: middle;
-  width: 225px;
 }
 
-.container{
+.i-block .i-box:first-child{
+  margin-left: 0;
+}
+
+
+
+
+.f-flex .f-box{
+  width: 225px;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.f-flex .f-inner{
   display: flex;
   align-items: flex-end;
+  justify-content: space-around;
 }
 
-.item1{
-  margin: 0 20px;
-  width: 40%;
+
+
+.m-margin .m-box{
+  vertical-align: top;
 }
 
-.item2{
-  margin: 0 20px;
-  width: 40%;
+.m-margin .m-inner{
+  font-size: 0;
 }
 
-.example{
-  display: table;
-  height: auto;
-  width: auto;
-  padding: 5px;
-}
-
-.example1{
+.m-margin .is-stable{
   display: inline-block;
-  width: 300px
-
+  width: 300px;
 }
 
-.example2{
+.m-margin .m-text{
+  font-size: 16px;
+}
+
+.m-margin .is-flexible{
   display: inline-block;
-  float: right;
-  width: 60%;
-  margin-left: 50px;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
 }
-/* 回答はここに書いてね */

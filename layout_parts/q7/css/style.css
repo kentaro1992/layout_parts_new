@@ -9,9 +9,6 @@
 
 .float-block .f-cell{
   width: 225px;
-}
-
-.float-block .f-cell{
   box-sizing: border-box;
   float: left;
   margin-left: 50px;
@@ -48,19 +45,13 @@
 
 
 
-.i-block .i-box{
-  width: 225px;
-}
 
 .i-block .i-inner{
   font-size: 0;
 }
 
-.i-inner{
-  display: table;
-}
-
 .i-block .i-box{
+  width: 225px;
   box-sizing: border-box;
   display: inline-block;
   vertical-align: middle;
